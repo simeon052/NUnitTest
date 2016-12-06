@@ -2,7 +2,9 @@
 
 NUnit Test project for Xamarin.Mac.Mobile with GUIUnit <https://github.com/mono/guiunit>.
 
+** Problem was fixed (https://forums.xamarin.com/discussion/72615/guiunit-with-pcl-project) **
 
+~~
 But, GUIUnit doesn't work well with PCL Project with this error.
 
 ----
@@ -24,3 +26,4 @@ Errors and Failures:
   at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&)
   at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00038] in /Users/builder/data/lanes/3539/f37444ae/source/maccore/_mac-build/Library/Frameworks/Xamarin.Mac.framework/Versions/git/src/mono/mcs/class/corlib/System.Reflection/MonoMethod.cs:295 
 
+~~
